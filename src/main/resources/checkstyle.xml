@@ -14,6 +14,10 @@
   <property name="fileExtensions" value="java, properties, xml"/>
   <property name="tabWidth" value="4"/>
   <module name="TreeWalker">
+    <module name="SuppressionXpathFilter">
+      <property name="file" value="checkstyle-suppressions.xml" />
+      <property name="optional" value="false"/>
+    </module>
     <module name="AnnotationLocation"/>
     <module name="AnnotationUseStyle">
       <property name="severity" value="warning"/>
@@ -371,10 +375,6 @@
   </module>
   <module name="BeforeExecutionExclusionFileFilter">
     <property name="fileNamePattern" value="module\-info\.java$"/>
-  </module>
-  <module name="SuppressionXpathFilter">
-    <property name="file" value="checkstyle-suppressions.xml" />
-    <property name="optional" value="false"/>
   </module>
   <module name="SuppressionFilter">
     <property name="file" value="checkstyle-file-suppressions.xml" />

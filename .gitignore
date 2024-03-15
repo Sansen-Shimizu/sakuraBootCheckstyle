@@ -1,2 +1,7 @@
+target/
+
+# Package Files #
+*.jar
+
 ### VS Code ###
 .vscode/

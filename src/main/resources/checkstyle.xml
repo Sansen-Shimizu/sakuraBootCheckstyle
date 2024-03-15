@@ -16,7 +16,7 @@
   <module name="TreeWalker">
     <module name="SuppressionXpathFilter">
       <property name="file" value="checkstyle-suppressions.xml" />
-      <property name="optional" value="false"/>
+      <property name="optional" value="true"/>
     </module>
     <module name="AnnotationLocation"/>
     <module name="AnnotationUseStyle">

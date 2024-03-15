@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.sansenshimizu</groupId>
+	<artifactId>sakura-boot-checkstyle</artifactId>
+	<version>1.0.0</version>
+	<name>sakura boot checkstyle</name>
+	<description>
+        Checkstyle configuration use in sakura boot project.
+        Also include a java formatter based on the checkstyle configuration
+    </description>
+
+    <licenses>
+        <license>
+        <name>Apache License, Version 2.0</name>
+        <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>malcolm roze</name>
+            <email>malcolm@sansenshimizu.com</email>
+            <organization>株式会社さんせん清水</organization>
+            <organizationUrl>https://www.sansenshimizu.com/</organizationUrl>
+        </developer>
+    </developers>
+</project>

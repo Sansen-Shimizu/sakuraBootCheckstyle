@@ -53,7 +53,7 @@
     </module>
     <module name="SuppressionXpathFilter">
       <property name="file" value="./checkstyle/checkstyle-suppressions.xml" />
-      <property name="optional" value="false"/>
+      <property name="optional" value="true"/>
     </module>
     <module name="AvoidStarImport"/>
     <module name="CustomImportOrder">

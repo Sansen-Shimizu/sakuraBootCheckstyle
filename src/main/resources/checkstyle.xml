@@ -18,6 +18,22 @@
       <property name="file" value="./checkstyle/checkstyle-suppressions.xml" />
       <property name="optional" value="true"/>
     </module>
+    <module name="SuppressionXpathSingleFilter">
+      <property name="checks" value="HideUtilityClassConstructor"/>
+      <property name="query" value="//CLASS_DEF[.//ANNOTATION/IDENT[@text='SpringBootApplication']]"/>
+    </module>
+    <module name="SuppressionXpathSingleFilter">
+      <property name="checks" value="HiddenField"/>
+      <property name="query" value="//CLASS_DEF[..//CLASS_DEF[./IDENT[matches(@text, '.*Builder$')]]]//*"/>
+    </module>
+    <module name="SuppressionXpathSingleFilter">
+      <property name="checks" value="IllegalThrows"/>
+      <property name="query" value="//CLASS_DEF[./IDENT[matches(@text, '.*Test$')]]//*"/>
+    </module>
+    <module name="SuppressionXpathSingleFilter">
+      <property name="checks" value="IllegalThrows"/>
+      <property name="query" value="//INTERFACE_DEF[./IDENT[matches(@text, '.*Test$')]]//*"/>
+    </module>
     <module name="AnnotationLocation"/>
     <module name="AnnotationUseStyle">
       <property name="severity" value="warning"/>

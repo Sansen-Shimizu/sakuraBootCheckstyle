@@ -74,8 +74,9 @@
     <module name="AvoidStarImport"/>
     <module name="CustomImportOrder">
       <property name="severity" value="warning"/>
-      <property name="customImportOrderRules" value="STATIC###STANDARD_JAVA_PACKAGE###THIRD_PARTY_PACKAGE###SPECIAL_IMPORTS"/>
-      <property name="specialImportsRegExp" value="^org.sansenshimizu.sakuraboot\."/>
+      <property name="customImportOrderRules" value="STATIC###STANDARD_JAVA_PACKAGE###SPECIAL_IMPORTS###THIRD_PARTY_PACKAGE###SAME_PACKAGE(3)"/>
+      <property name="standardPackageRegExp" value="^java\."/>
+      <property name="specialImportsRegExp" value="^(javax|jakarta)\."/>
       <property name="sortImportsInGroupAlphabetically" value="true"/>
       <property name="separateLineBetweenGroups" value="true"/>
     </module>

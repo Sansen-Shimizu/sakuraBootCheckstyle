@@ -236,7 +236,7 @@
     <module name="StaticVariableName"/>
     <module name="TypeName"/>
     <module name="AtclauseOrder">
-      <property name="tagOrder" value="@author, @version, @param, @return, @throws, @exception, @see, @since, @serial, @serialData, @serialField, @deprecated"/>
+      <property name="tagOrder" value="@param, @author, @version, @return, @throws, @exception, @see, @since, @serial, @serialData, @serialField, @deprecated"/>
     </module>
     <module name="InvalidJavadocPosition"/>
     <module name="JavadocBlockTagLocation"/>

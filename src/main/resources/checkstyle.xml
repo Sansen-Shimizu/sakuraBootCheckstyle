@@ -34,6 +34,14 @@
       <property name="checks" value="IllegalThrows"/>
       <property name="query" value="//INTERFACE_DEF[./IDENT[matches(@text, '.*Test$')]]//*"/>
     </module>
+    <module name="SuppressionXpathSingleFilter">
+      <property name="checks" value="IllegalThrows"/>
+      <property name="query" value="//CLASS_DEF[./IDENT[matches(@text, '.*IT$')]]//*"/>
+    </module>
+    <module name="SuppressionXpathSingleFilter">
+      <property name="checks" value="IllegalThrows"/>
+      <property name="query" value="//INTERFACE_DEF[./IDENT[matches(@text, '.*IT$')]]//*"/>
+    </module>
     <module name="AnnotationLocation"/>
     <module name="AnnotationUseStyle">
       <property name="severity" value="warning"/>
